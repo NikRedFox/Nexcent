@@ -1,0 +1,13 @@
+.header_nexcent{
+    background-color: white;
+    width: 100%;
+    height: 64px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.header_icon{
+    display:inline-block;
+}
