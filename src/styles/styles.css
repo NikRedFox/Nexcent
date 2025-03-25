@@ -121,7 +121,7 @@ nav{
     flex-direction: column;
 }
 
-.s2_box{
+.s2_textbox{
     display: flex;
     flex-direction: column;
     align-items: center;
