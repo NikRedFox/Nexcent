@@ -34,4 +34,26 @@
     --color-action-success: #2E7D31;
 
     --font: 'Inter';
+    --headline1: 64px;
+    --headline2: 36px;
+    --headline3: 28px;
+    --headline4: 20px;
+
+    --body_medium1: 18px;
+    --body_medium2: 16px;    
+    --body_medium3: 14px;
+    --body_medium4: 12px;
+
+    --body_regular1: 18px;
+    --body_regular2: 16px;
+    --body_regular3: 14px;
+    --body_regular4: 12px;
+
+    --headline_font_weight: 700;
+    
+    --body_medium_font_weight: medium;
+    
+    --body_regular_font_weight: 500;
+    
+
 }
