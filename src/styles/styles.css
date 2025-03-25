@@ -109,3 +109,42 @@ nav{
     width: 128px;
     cursor: pointer;
 }
+
+.section2{
+    font-family: var(--font);
+    width: 100%;
+    height: 190px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s2_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.s2_boxtext1{
+    color: var(--color-neutral-d_grey);
+    font-size: var(--headline2);
+    font-weight: var(--headline_font_weight);
+}
+
+.s2_boxtext2{
+    color: var(--color-neutral-grey);
+    font-size: var(--body_regular2);
+    font-weight: var(--body_regular_font_weight);
+
+}
+
+.s2_logo{
+    width: 100%;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
