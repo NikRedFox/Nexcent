@@ -235,15 +235,21 @@ h3{
     flex-direction: column;
 }
 
-.s4_box1{
+.s4_box1{   
+    background-color: red; 
     width: 100%;
     height: 433px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.s4_imgbox1{
+    width: 442px;
+    height: 433px;
+    display: flex;    
+}
 
-.s4_unseenbox{
+.s4_unseenbox{    
     width: 661px;
     height: 268px;
     display: flex;
@@ -259,7 +265,17 @@ h3{
     gap: 16px;
 }
 
+.s4_box2{
+    width: 100%;
+    height: 288px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gold;
+
+}
 .s4_helpingbox{
+    background-color:crimson ;
     width: 500px;
     height: 120px;
     display: flex;
@@ -271,5 +287,29 @@ h3{
 .s4_helpinha{
     width: 398px;
     height: 80px;
-    display: flex
+    display: flex;
 }
+
+.s4_imgbox2{   
+    /* background-color: aqua; */
+    width: 255px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.s4_bigimgbox{
+    background-color: blueviolet;
+    width: 500px;
+    height: 160px;
+    display: flex;
+}
+
+.s4_imgbox_text{
+    /* background-color: blue; */
+    width: 191px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    
+} 
