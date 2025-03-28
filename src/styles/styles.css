@@ -268,7 +268,9 @@ h3{
 .s4_box2{
     width: 100%;
     height: 288px;
+    margin: 48px 0px;
     display: flex;
+    /* gap: 72px; */
     justify-content: space-around;
     align-items: center;
     background-color: gold;
@@ -276,7 +278,7 @@ h3{
 }
 .s4_helpingbox{
     background-color:crimson ;
-    width: 500px;
+    width: 398px;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -284,32 +286,10 @@ h3{
     gap: 8px;
 }
 
-.s4_helpinha{
-    width: 398px;
-    height: 80px;
-    display: flex;
-}
-
-.s4_imgbox2{   
-    /* background-color: aqua; */
-    width: 255px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
+.s4_imgbox2{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 
 }
-.s4_bigimgbox{
-    background-color: blueviolet;
-    width: 500px;
-    height: 160px;
-    display: flex;
-}
-
-.s4_imgbox_text{
-    /* background-color: blue; */
-    width: 191px;
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    
-} 
