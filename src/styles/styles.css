@@ -350,8 +350,11 @@ h3{
     line-height: 1.5;
 }
 
-.section-tim-smith{
+.section-customer{
+    background-color: var(--color-neutral-silver);
     font-family: var(--font);
+    align-items: center;
+    padding: 32px 0px;
     gap: 78px;
     display: flex;
     width: 100%;
@@ -367,20 +370,52 @@ h3{
     height: 326px;
 }
 
-.text-tim-smith{
+.customer-content{
     display: flex;
     width: 748px;
     height: 324px;
     flex-direction: column;
 }
 
-.text-tim-smith p{
+.customer-content p{
+    line-height: 1.5;
+    margin-bottom: 16px;    
+}
+
+.customer-content h2{
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_grey);
+}
+
+.customer-container{
     display: flex;
-    width: 748px;
-    height: 168px;
-}
-
-.text-dragon{
+    gap: 32px;
 
 }
 
+.customer-itens{
+    display: flex;
+    gap: 41px;
+    
+}
+.customer-itens img{
+    width: 48px;
+}
+
+.customer_navigation a{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    gap: 8px;
+
+}
+
+.customer_navigation a p{
+   color: var(--color-primary); 
+   margin: 0;
+}
