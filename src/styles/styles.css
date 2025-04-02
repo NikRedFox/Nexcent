@@ -5,7 +5,7 @@ header{
     background-color: var(--color-neutral-silver);
     width: 100%;
     height: 64px;
-    border: 1px solid black;;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -115,7 +115,7 @@ h3{
     background-color: var(--color-neutral-silver);
     width: 100%;
     height: 599px;
-    border: 1px solid black;      
+    ;      
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,7 +150,7 @@ h3{
     height: 190px;
     display: flex;
     margin-top: 40px;  
-    border: 2px solid black;
+    
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
@@ -175,7 +175,7 @@ h3{
     width: 100%;
     height: 416px;
     display: flex;
-    border: 2px, solid, black;
+    
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
@@ -235,7 +235,7 @@ h3{
     width: 100%;
     height: 769px;
     display: flex;
-    border: 2px, solid, black;
+    
     margin-top: 42px;
     justify-content: space-around;
     align-items: center;
@@ -308,6 +308,7 @@ h3{
 }
 
 /* Fazendo certo a partir daqui*/
+/* How-to */
 
 .section-how-to{
     font-family: var(--font);
@@ -350,6 +351,7 @@ h3{
     line-height: 1.5;
 }
 
+ /* Customer */
 .section-customer{
     background-color: var(--color-neutral-silver);
     font-family: var(--font);
@@ -360,8 +362,7 @@ h3{
     width: 100%;
     height: 390px;
     margin-top: 48px;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .img-tim-smith{    
@@ -396,7 +397,6 @@ h3{
     display: flex;
     gap: 32px;
     align-items: center;
-
 }
 
 .customer-itens{
@@ -419,4 +419,69 @@ h3{
 .customer_navigation a p{
    color: var(--color-primary); 
    margin: 0;
+}
+
+/* Caring-marketing */
+
+.caring-marketing{
+    text-align: center;
+    margin-top: 48px;  
+    margin-bottom: 8px;  
+}
+
+.caring-marketing h2{
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{    
+    width: 628px;
+    margin:  0 auto;   
+    font-family: var(--font);
+    font-size: var(--body_regular2);
+    font-weight: var(--body_regular_font_weight);
+    color: var(--color-neutral-grey); 
+}
+
+.caring-cards a{
+    text-decoration: none;
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;   
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    padding: 16px;
+    position: absolute; 
+    bottom: -53px;
+    right: 25px;
+}
+.caring-cards-content h3{
+    font-size: 20px;
+}
+
+.caring-cards-content a{
+    font-family: var(--font);
+    display: flex;
+    font-size: 20px;
+    margin-top: 24px; 
+    justify-content: center; 
+    font-weight: bold;
+}
+
+.caring-cards-content a p{
+   color: var(--color-primary); 
 }
