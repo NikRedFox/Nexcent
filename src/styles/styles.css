@@ -492,6 +492,7 @@ h3{
 .pellentesque{
     text-align: center;
     background-color: var(--color-neutral-silver);
+    padding: 0px 0px 32px 0px;
 }
 
 .pellentesque h2{
@@ -506,10 +507,111 @@ h3{
     align-items: center;
     margin: 0 auto;
     gap: 8px;
-    padding: 0 20px;
-    
+    padding: 0 20px;    
 }
 
 .pellentesque a{
     text-decoration: none;
+}
+
+/* Footer */
+footer{
+    background-color: var(--color-neutral-black);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    gap: 284px;
+    padding: 64px 0;    
+}
+
+.copyright{
+    margin: 40px 0;
+}
+
+.copyright p{
+    color: var(--color-neutral-silver);    
+}
+
+.copyright p:nth-of-type(1){
+    margin-bottom: 8px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons{
+    background-color: #3c474c;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social-icons:hover{
+    transform: translateY(-10px);
+    background-color: var(--color-primary);
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+}
+
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-item{
+    color: var(--color-neutral-silver);
+    text-decoration: none;
+    margin-bottom: 12px;
+    display: block;
+    width: 120px;    
+    transition: 0.4s;
+}
+
+.footer-item:hover{
+    transform: translateX(10px);
+    color: var(--color-primary);
+}
+
+.footer-container form{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container form input{
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #d9dbe1;
+    outline: none;
+
+}
+.footer-container form input::placeholder{
+    color: #d9dbe1;
+}
+
+.stay-button{
+    padding: 8.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stay-button:hover{
+    background-color: var(--color-primary);
 }
