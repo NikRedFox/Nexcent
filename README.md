@@ -32,7 +32,7 @@
 ## 💻 Sobre o projeto
 
 <!-- EXPLICA O MOTIVO DO PROJETO -->
-Nexcent é um site que desenvolvi a partir de um tamplate no Figma, para testar meus conhecimentos em HTML e CSS.
+Nexcent é um site que desenvolvi a partir de um template no Figma, para testar meus conhecimentos em HTML e CSS.
 
 <!-- LINHA DE DIVISÃO: -->
 ---
@@ -84,7 +84,7 @@ Ferramentas:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="https://br.linkedin.com/in/matheus-maia-alvarez-">
+<a href="#">
 Nikolas Barbosa dos Santos</a>
  <br />
  
@@ -99,4 +99,4 @@ Nikolas Barbosa dos Santos</a>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Matheus Maia Alvarez👋🏽 [Entre em contato!](https://br.linkedin.com/in/matheus-maia-alvarez-)
+Feito por Nikolas Barbosa dos Santos👋🏽
