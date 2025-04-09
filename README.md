@@ -88,7 +88,7 @@ Ferramentas:
 Nikolas Barbosa dos Santos</a>
  <br />
  
-[![Gmail Badge](https://img.shields.io/badge/-mthalvarez2005@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nikolasbs11@gmail.com)](mailto:nikolasbs11@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-nikolasbs11@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nikolasbs11@gmail.com)](mailto:nikolasbs11@gmail.com)
 
 ---
 
