@@ -615,3 +615,160 @@ footer{
 .stay-button:hover{
     background-color: var(--color-primary);
 }
+
+
+/* RESPONSIVIDADE */
+
+/* Tablet */
+@media (max-width: 835px){
+    
+} 
+
+/* CELULAR */
+@media (max-width: 480px){
+    /* Header */
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Fim Header */
+
+    /* Main */
+    main{
+        flex-direction: column-reverse;        
+    }
+
+    main img{
+        width: 350px;
+        text-align: center;
+    }
+
+    .content-lessons{
+        width: 90%;
+    }
+
+    .content-lessons h1{
+       font-size: 50px;
+    }
+
+    .content-lessons p{
+        font-size: 20px;
+    }
+    /* Fim Main */
+
+    /* Manage */
+    .manage-system h2{
+        width: 95%;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    /* Fim Manage */
+
+    /* Pixelgrade */
+    .pixelgrade{
+        flex-direction: column;
+        align-items: center;
+        padding: 52px 0;
+        margin-top: 10px;
+    }
+
+    .pixelgrade-content{
+        width: 90%;
+    }
+
+    .pixelgrade-content h2{
+        width: 100%;
+    }
+    /* Fim Pixelgrade */
+
+    /* Helping Local */
+    .helping-local{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .helping-content h2, .helping-content p{
+        width: 90%;
+        margin: 0 auto;        
+    }
+
+    .helping-statistic{        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Fim Helping Local */
+
+    /* How Design */
+    .how-design{
+        flex-direction: column;
+    }
+    .content-how-design{
+        width: 90%;
+    }
+
+    .content-how-design h2, .content-how-design p{
+        width: 100%;
+        text-align: justify;
+    }
+    /* Fim How Design */
+
+    /* Costumer */
+    .customer{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .customer-content{
+        width: 90%;
+    }
+
+    .customer-content h2, .customer-content p{
+        width: 100%;
+    }
+
+    .customer-container{
+        flex-direction: column;
+    }
+    /* Fim Costumer */
+
+    /* Caring */
+    .caring-marketing p{
+        width: 90%;
+    }
+
+    .caring-marketing-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    /* Fim Caring */
+
+    /* Pellentesque */   
+
+    .pellentesque h2{
+        width: 90%;
+        font-size: 36px;
+    }
+    /* Fim Pellentesque */
+
+    /* Footer */
+    footer{
+        flex-direction: column;
+        align-items: start;
+        padding: 64px 20px ;
+        gap: 40px;
+    }
+    
+    .footer-navigation{
+        flex-direction: column;
+        gap: 40px;
+    }
+    /* Fim Footer */
+} 
